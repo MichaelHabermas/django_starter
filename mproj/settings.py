@@ -10,6 +10,7 @@ For the full list of settings and their values, see
 https://docs.djangoproject.com/en/3.2/ref/settings/
 """
 
+# import os 
 from pathlib import Path
 from decouple import config #
 import dj_database_url #
@@ -152,3 +153,5 @@ REST_FRAMEWORK = {
     ],
 }
 
+# STATIC_URL = '/static/'
+# STATIC_ROOT = os.path.join(BASE_DIR, 'static')
